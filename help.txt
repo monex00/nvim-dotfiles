@@ -1,0 +1,49 @@
+---------------NORMAL-------------------
+NAVIGATION:
+fine parola -> e
+inizio parola -> w 
+fine della riga -> $
+inizio della riga -> 0
+fine del file -> G
+inizio del file -> gg
+
+MODIFICA TESTO:
+elimina carattere -> x
+elimina riga -> dd
+elimina parola dietro -> dw
+elimina parola avanti -> de
+decrementa/aumenta numero -> +/- 
+seleziona tutto -> ctrl + a
+inserisci 9 volte - -> 10i-<esc> 
+
+UNDO REDO:
+undo -> u
+redo -> ctrl + r
+
+TABS:
+tab -> te
+horizontal tab -> ss 
+verical tab -> sv
+change tab -> space
+
+COPY PASTE:
+in visual mode select text
+copy -> y
+paste copyed content -> p 
+
+--------GENERAL------
+:e open new file
+vai ad una riga -> :numero
+
+------------INSERT----------------
+scopri tasti -> ctrl + k + carattere
+inserisci tab alla riga corrente-> ctrl + t
+elimina parola precedente -> ctrl + w
+
+------------VISUAL----------------
+
+
+----------TELESCOPE----------------
+find files -> ; + f
+grep in all files -> ; + r
+file browser -> sf
