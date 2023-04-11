@@ -1,32 +1,54 @@
 # monex's neovim dotfiles
 basic nvim setup with LSP, autocompletion, copilot, telescope, treesitter and so on ...
 
-# dependencies:
-things to install:
-1. [packer.nvim](https://github.com/wbthomason/packer.nvim):
-> unix, linux
-`git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+## dependencies:
+things to install
+- [packer.nvim](https://github.com/wbthomason/packer.nvim):
+  > unix, linux
 
- > windows powershell
- `git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"`
+  ```bash
+  git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+  ```
 
-2. [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-> typescript language server: 
-`npm i -g typescript-language-server`
+   > windows powershell
 
-> python language server
-`pip install pyright`
+  ```bash
+  git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+  ```
 
-3. tree-sitter
->unix, linux
-``
-> windows
-`scoop install tree-sitter`
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+  > typescript language server: 
 
-4. ripgrep for telescope
->unix, linux
-`sudo apt install -y ./ripgrep.deb`
+  ```bash
+  npm i -g typescript-language-server
+  ```
 
->windows
-`scoop install ripgrep`
+  > python language server
+
+  ```bash
+  pip install pyright
+  ```
+
+- tree-sitter
+  >unix, linux
+
+
+  > windows
+
+  ```bash 
+  scoop install tree-sitter
+  ```
+
+- ripgrep for telescope
+  >unix, linux
+
+  ```bash
+  sudo apt install -y ./ripgrep.deb
+  ```
+
+  >windows
+
+  ```bash
+  scoop install ripgrep
+  ```
