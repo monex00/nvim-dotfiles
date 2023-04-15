@@ -23,10 +23,23 @@ packer.startup(function(use)
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons', -- optional
+    },
+    config = function()
+      require("nvim-tree").setup {}
+    end
+  }
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
   use 'nvim-lua/plenary.nvim' -- common utility functions
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'kyazdani42/nvim-web-devicons' -- icons
+  use 'akinsho/nvim-bufferline.lua' -- bufferline
+  -- use 'kyazdani42/nvim-tree.lua' -- file explorer
+  use 'jose-elias-alvarez/null-ls.nvim' -- null-ls'
+  use 'MunifTanjim/prettier.nvim' -- prettier
 end)

@@ -52,3 +52,8 @@ things to install
   ```bash
   scoop install ripgrep
   ```
+
+- prettier
+  '''bash
+  npm install -g @fsouza/prettierd
+  '''

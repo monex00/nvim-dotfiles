@@ -1,7 +1,8 @@
 ---------------NORMAL-------------------
 NAVIGATION:
-fine parola -> e
-inizio parola -> w 
+fine parola avanti -> e
+inizio parola avanti -> w 
+fine parola dietro -> b
 fine della riga -> $
 inizio della riga -> 0
 fine del file -> G
@@ -22,14 +23,24 @@ redo -> ctrl + r
 
 TABS:
 tab -> te
+next tab -> tab
+previous tab -> shift + tab
 horizontal tab -> ss 
 verical tab -> sv
 change tab -> space
+
+FIND REPLACE:
+find -> / + stringa
+replace -> :s/old/new
+replace all -> :s/old/new/g
+replace all -> :%s/old/new
+
 
 COPY PASTE:
 in visual mode select text
 copy -> y
 paste copyed content -> p 
+copy entire line -> yy
 
 --------GENERAL------
 :e open new file
@@ -42,8 +53,11 @@ elimina parola precedente -> ctrl + w
 
 ------------VISUAL----------------
 
+----------VISUAL LINE----------------
+attiva modalità ->  shift + v 
 
 ----------TELESCOPE----------------
 find files -> ; + f
 grep in all files -> ; + r
 file browser -> sf
+
